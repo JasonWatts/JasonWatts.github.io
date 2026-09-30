@@ -1,0 +1,32 @@
+body {
+  font-family: Verdana, sans-serif;
+  margin: auto;
+  padding: 20px;
+  max-width: 720px;
+  background-color: white;
+  overflow-wrap: break-word;
+  line-height: 1.5;
+  color: #444;
+}
+
+h1, h2, h3, strong { color: #222; }
+
+a { color: #3273dc; }
+
+.title { text-decoration: none; }
+
+nav a { margin-right: 10px; }
+
+.date { color: #777; font-size: small; }
+
+footer {
+  padding: 25px;
+  text-align: center;
+}
+
+@media (prefers-color-scheme: dark) {
+  body { background-color: #181818; color: #bbb; }
+  h1, h2, h3, strong { color: #eee; }
+  a { color: #6ea8fe; }
+  .date { color: #999; }
+}
